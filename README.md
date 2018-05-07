@@ -41,9 +41,11 @@ To use this template:
 
 * Update test-database name in /package.json
 
-* Create a file called secrets.js in the project root: this file is .gitignore'd, and will only be required in your development environment
+* Rename secrets.js in the project root to be localSecrets.js: this file is .gitignore'd, and will only be required in your development environment
 
-* Template is currently set up to use google OAuth using your client Id and client secret from Google. Your secret file should contain:
+* Delete secrets.js file from your GitHub directory
+
+* Template is currently set up to use google OAuth using your client Id and client secret from Google. Your localSecrets file should contain:
 
   -process.env.GOOGLE_CLIENT_ID = 'Add your id here'
 
