@@ -13,7 +13,7 @@ const app = express()
 module.exports = app
 const port = process.env.PORT || 8080
 
-if (process.env.NODE_ENV !== 'production') require('../secrets')
+if (process.env.NODE_ENV !== 'production') require('../localSecrets')
 
 //passport registration
 passport.serializeUser((user, done) => done(null, user.id))
