@@ -9,6 +9,21 @@
 
 * Frontend: React and Redux
 
+## Initialization --> 
+
+* Create a local project directory and git init
+
+* Then run the following commands:
+
+  * git remote add ******** https://github.com/RianAndEricReview/fullStackProjectTemplate.git 
+
+  * git fetch ********
+
+  * git merge ********/master
+
+  NOTE: (******** is the template branch name you choose)
+
+* Create a new Github repository and follow instructions for 'create from existing repository'
 
 ## Setup -->
 
