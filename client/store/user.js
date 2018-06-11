@@ -37,7 +37,7 @@ export const logOutThunk = () =>
     .catch(err => console.log(err))
 
 //REDUCERS
-export default function ingredientReducer(state = defaultUser, action) {
+export default function userReducer(state = defaultUser, action) {
   switch (action.type) {
     case GET_USER:
       return action.user
